@@ -6,13 +6,16 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "i18n": "plasmic localization-strings --output locales/en/common.json --format=json --force-overwrite --projects=7nJ7UcFmq9UzB6eXfC5z4a"
   },
   "dependencies": {
     "@plasmicapp/cli": "^0.1.330",
     "@plasmicapp/react-web": "^0.2.342",
     "@plasmicpkgs/plasmic-nav": "^0.0.169",
+    "i18next": "^23.11.5",
     "next": "14.2.4",
+    "next-i18next": "^15.3.0",
     "react": "^18",
     "react-dom": "^18"
   },
